@@ -684,10 +684,13 @@ footer p {
 }
 
 .env-disp-name {
-  font-family: 'Great Vibes', cursive;
-  font-size: 1.7rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 500;
   color: var(--gold2);
   line-height: 1;
+  letter-spacing: 0.02em;
 }
 
 .env-disp-sep {

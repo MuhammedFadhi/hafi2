@@ -130,11 +130,11 @@ function App() {
                 <circle cx="90" cy="90" r="64" fill="none" stroke="#c09a58" strokeWidth="1.5" opacity="0.7" />
                 <circle cx="90" cy="90" r="58" fill="none" stroke="#c09a58" strokeWidth="0.6" strokeDasharray="2 3.5" opacity="0.5" />
                 {/* H */}
-                <text x="90" y="80" fontFamily="'Great Vibes', cursive" fontSize="42" fill="#8c6c35" textAnchor="middle" opacity="0.9">H</text>
+                <text x="90" y="82" fontFamily="'Great Vibes', cursive" fontSize="44" fill="#8c6c35" textAnchor="middle" opacity="0.9">H</text>
                 {/* & */}
-                <text x="90" y="100" fontFamily="'Cinzel', serif" fontSize="13" fill="#af8f56" textAnchor="middle" letterSpacing="3" opacity="0.85">&amp;</text>
-                {/* A */}
-                <text x="90" y="132" fontFamily="'Great Vibes', cursive" fontSize="42" fill="#8c6c35" textAnchor="middle" opacity="0.9">A</text>
+                <text x="90" y="101" fontFamily="'Cinzel', serif" fontSize="12" fill="#af8f56" textAnchor="middle" letterSpacing="3" opacity="0.85">&amp;</text>
+                {/* A — Cormorant Garamond italic for clear cursive capital */}
+                <text x="90" y="133" fontFamily="'Cormorant Garamond', serif" fontSize="50" fontStyle="italic" fontWeight="600" fill="#8c6c35" textAnchor="middle" opacity="0.9">A</text>
               </svg>
             </div>
           </div>
@@ -142,9 +142,9 @@ function App() {
           {/* Bottom info */}
           <div className="env-footer">
             <div className="env-names-display">
-              <span className="env-disp-name">Hafeesha</span>
+              <span className="env-disp-name">Hafeesha K H</span>
               <span className="env-disp-sep">✦</span>
-              <span className="env-disp-name">Dr. Afzal</span>
+              <span className="env-disp-name">Afzal Abdul Azeez</span>
             </div>
             <p className="env-disp-date">Nikah · Thursday, 30 July 2026</p>
             {!isEnvelopeOpen && <p className="env-tap-hint">— TAP TO OPEN —</p>}
@@ -157,7 +157,7 @@ function App() {
         <figure className="hero-poster">
           <img
             src="/assets/images/hero_poster.png"
-            alt="Nikkah invitation for Hafeesha and Dr. Afzal"
+            alt="Nikkah invitation for Hafeesha K H and Afzal Abdul Azeez"
             className="hero-poster__img"
             width="1023"
             height="1537"
@@ -249,11 +249,11 @@ function App() {
 
         <img className="cl-arch reveal" src="https://fidhaashmil.vercel.app/assets/svg/arch-ornament.svg" width="100" height="38" alt="" />
 
-        <div className="cl-script reveal">Hafeesha <span className="cl-amp">&amp;</span> Dr. Afzal</div>
+        <div className="cl-script reveal">Hafeesha K H <span className="cl-amp">&amp;</span> Afzal Abdul Azeez</div>
         <div className="cl-parentage reveal">
-          <span>Hafeesha <span className="parent-note">(D/o Mr. Haneefa K. &amp; Mrs. Shemitha P. S.)</span></span>
+          <span>Hafeesha K H <span className="parent-note">(D/o Mr. Haneefa K. &amp; Mrs. Shemitha P. S.)</span></span>
           <span className="parent-amp">&amp;</span>
-          <span>Dr. Afzal <span className="parent-note">(S/o Mr. Abdul Azeez &amp; Mrs. Nazeema)</span></span>
+          <span>Afzal Abdul Azeez <span className="parent-note">(S/o Mr. Abdul Azeez &amp; Mrs. Nazeema)</span></span>
         </div>
         <p className="cl-sub reveal">TOGETHER WITH THEIR FAMILIES</p>
         <p className="cl-body reveal">
@@ -278,7 +278,7 @@ function App() {
       </section>
 
       <footer>
-        <p>🤍 &nbsp; HAFEESHA &amp; DR. AFZAL &nbsp; 🤍<br />NIKAH · THURSDAY 30 JULY 2026<br />ASCO CONVENTION CENTER, MAYANNUR, THRISSUR, KERALA</p>
+        <p>🤍 &nbsp; HAFEESHA K H &amp; AFZAL ABDUL AZEEZ &nbsp; 🤍<br />NIKAH · THURSDAY 30 JULY 2026<br />ASCO CONVENTION CENTER, MAYANNUR, THRISSUR, KERALA</p>
       </footer>
     </>
   );
